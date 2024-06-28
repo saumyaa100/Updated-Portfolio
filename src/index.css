@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  /* color: white; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  overflow: hidden;
+  display: block;
+  /* font-size:100px; */
+}
+
+.dashboard {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
+}
